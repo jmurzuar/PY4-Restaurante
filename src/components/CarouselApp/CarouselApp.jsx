@@ -1,7 +1,7 @@
 import React from 'react'
-import imagen01 from '../../../src/assets/images/imagen01.jpeg';
-import imagen02 from '../../../src/assets/images/imagen02.jpeg';
-import imagen03 from '../../../src/assets/images/imagen03.jpeg';
+import imagen01 from '../../../public/imagen01.jpeg';
+import imagen02 from '../../../public/imagen02.jpeg';
+import imagen03 from '../../../public/imagen03.jpeg';
 import { Carousel, Image } from 'react-bootstrap';
 
 import './CarouselApp.css';
