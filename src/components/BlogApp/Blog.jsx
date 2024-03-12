@@ -14,7 +14,7 @@ export const Blog = () => {
         },
         {
           id: 2,
-          image: './src/assets/images/imagen01.jpeg',
+          image: '/imagen01.jpeg',
           title: 'Evento especial: Noche de música en vivo',
           date: '2023.12.01',
           author: 'Juan Manuel',
