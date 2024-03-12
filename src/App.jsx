@@ -1,7 +1,4 @@
-import { Route, Routes } from "react-router-dom"
-import { Home } from "./pages/Home"
-import { NavbarComponent } from "./components/NavbarComponent"
-import { About } from "./pages/About"
+import { NavbarComponent } from "./components/Reservation/NavbarApp/NavbarComponent"
 import { AppRoutes } from "./routes/AppRoutes"
 import { Footer } from "./components/Footer/Footer"
 import './index.css';

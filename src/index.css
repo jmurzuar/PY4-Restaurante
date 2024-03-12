@@ -6,8 +6,27 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
+}
+
+html {
+  font-size: 16px;
+}
+
+/* Establece los márgenes y rellenos a 0 para todos los elementos */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Establece los bordes a 0 para todos los elementos */
+body, input, button {
+  border: 0;
+}
+
+/* Normaliza la configuración de la lista */
+ul {
+  list-style: none;
 }
 
 /* :root {

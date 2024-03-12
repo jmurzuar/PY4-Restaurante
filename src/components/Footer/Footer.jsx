@@ -22,7 +22,7 @@ export const Footer = () => {
                                 <Link to="/"><i className="bi bi-facebook"></i></Link>
                                 </li>
                                 <li className="list-group-item bg-transparent border-0 text-white">
-                                <Link to="/"><i className="bi bi-instagram" style={{ fontSize: '2rem' }}></i></Link>
+                                <Link to="/"><i className="bi bi-instagram"></i></Link>
                                 </li>
                             </ul>
                         </div>

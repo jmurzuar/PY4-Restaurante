@@ -12,7 +12,7 @@ export const NavbarComponent = () => {
       <Container>
         <Navbar.Brand as={Link} to = "/PY4-Restaurante/">REACT-FLAVOR</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link as={Link} to = "/PY4-Restaurante/">inicio</Nav.Link>
+          {/* <Nav.Link as={Link} to = "/PY4-Restaurante/">inicio</Nav.Link> */}
           <Nav.Link as={Link} to = "/PY4-Restaurante/About">nosotros</Nav.Link>
           <Nav.Link as={Link} to = "/PY4-Restaurante/Menu">menu</Nav.Link>
           <Nav.Link as={Link} to = "/PY4-Restaurante/Blog">blog</Nav.Link>

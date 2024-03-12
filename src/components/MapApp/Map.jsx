@@ -27,7 +27,7 @@ export const Map = () => {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
           
-          <Marker position={[-34.43963, -71.07724]}>
+          <Marker position={[-34.4394, -71.07740]}>
             <Popup>
             Germán Riesco 900<br /> San Vicente.
             </Popup>
