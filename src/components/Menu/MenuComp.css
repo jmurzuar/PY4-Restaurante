@@ -60,6 +60,8 @@ a:hover .triangle {
     font-family: 'Hind Vadodara', sans-serif;
     font-size: 1rem;
     color: var(--color-4);
+    text-align: justify;
+    padding-bottom: 20px;
 }
 
 .bodyCardPrice{
@@ -72,6 +74,7 @@ a:hover .triangle {
     background-color: blue;
     padding: 0 10px; /* Ajusta el padding según sea necesario */
     border-radius: 10px;
+    
 
     
 }

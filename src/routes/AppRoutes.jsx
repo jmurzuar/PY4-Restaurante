@@ -6,6 +6,7 @@ import { Menu } from '../pages/Menu'
 import { Reservas } from '../pages/Reservas'
 import { MenuDetails } from '../pages/MenuDetails'
 import { Blog } from '../components/BlogApp/Blog'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const AppRoutes = () => {
   return (

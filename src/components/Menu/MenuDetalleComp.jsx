@@ -5,6 +5,7 @@ import data from '../../menu.json';
 import { Card, Col, Row } from 'react-bootstrap';
 import './MenuDetalleComp.css';
 
+
 export const MenuDetalleComp = () => {
     const {itemName} = useParams()
     const platosFiltrados = data.platos.filter(plato => plato.item===itemName);
@@ -27,7 +28,7 @@ export const MenuDetalleComp = () => {
                             </Col>
                             <Col md={6}>
                                 <Card.Title className='bodyCardTitle1'>{platosFiltrados[0].item}</Card.Title>
-                                <Card.Text className='bodyCardParagraph'>{platosFiltrados[0].description}</Card.Text>
+                                <Card.Text className='bodyCardParagraph text-justify'>{platosFiltrados[0].description}</Card.Text>
                                 <Card.Text className="bodyCardPrice mt-auto"> Valor $ {platosFiltrados[0].price}.-</Card.Text>
                             </Col>                           
                         </Row>                        

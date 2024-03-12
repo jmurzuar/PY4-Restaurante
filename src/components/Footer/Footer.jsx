@@ -16,13 +16,13 @@ export const Footer = () => {
                             <h5 className='text-center p-1 text-white'>Redes Sociales</h5>
                             <ul className="list-group text-center">
                                 <li className="list-group-item bg-transparent border-0 text-white">
-                                <Link to="/"><i className="bi bi-twitter"></i></Link>
+                                <Link to="/PY4-Restaurante/"><i className="bi bi-twitter"></i></Link>
                                 </li>
                                 <li className="list-group-item bg-transparent border-0 text-white">
-                                <Link to="/"><i className="bi bi-facebook"></i></Link>
+                                <Link to="/PY4-Restaurante/"><i className="bi bi-facebook"></i></Link>
                                 </li>
                                 <li className="list-group-item bg-transparent border-0 text-white">
-                                <Link to="/"><i className="bi bi-instagram"></i></Link>
+                                <Link to="/PY4-Restaurante/"><i className="bi bi-instagram"></i></Link>
                                 </li>
                             </ul>
                         </div>
