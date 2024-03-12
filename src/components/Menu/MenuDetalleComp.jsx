@@ -22,7 +22,7 @@ export const MenuDetalleComp = () => {
                     <Card.Body className='d-flex flex-column'>
                         <Row>
                             <Col md={6} className='carImg'>
-                                <Card.Img src={`../${platosFiltrados[0].imagen}`} alt={platosFiltrados[0].item} className="cardImg" />
+                                <Card.Img src={`${platosFiltrados[0].imagen}`} alt={platosFiltrados[0].item} className="cardImg" />
                             </Col>
                             <Col md={6}>
                                 <Card.Title className='bodyCardTitle'>{platosFiltrados[0].item}</Card.Title>
