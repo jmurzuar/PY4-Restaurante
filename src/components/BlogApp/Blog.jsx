@@ -14,7 +14,7 @@ export const Blog = () => {
         },
         {
           id: 2,
-          image: '/imagen01.jpeg',
+          image: '/PY4-Restaurante/imagen01.jpeg',
           title: 'Evento especial: Noche de música en vivo',
           date: '2023.12.01',
           author: 'Juan Manuel',
