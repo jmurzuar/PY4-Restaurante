@@ -17,7 +17,7 @@ export const MenuComp = () => {
               <Col key={idx}>
                 
                 <div>                  
-                  <Link to={`/Menu/${platos.item}`}>
+                  <Link to={`/PY4-Restaurante/Menu/${platos.item}`}>
                     <Card className='bodyCard h-100'>
                       <Card.Body className='d-flex flex-column'>
                         
