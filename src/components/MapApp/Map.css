@@ -1,0 +1,11 @@
+.location-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+  }
+  
+  .map, .contact-info {
+    width: 48%; /* O el ancho deseado */
+  }
+

@@ -1,0 +1,61 @@
+.col-lg-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: red;
+}
+
+.col-lg-8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: green;
+}
+
+.list-group-item {
+    margin: 0;
+}
+
+.text-white {
+    color: white;
+}
+
+.bi {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.bi:hover {
+    color: rgb(190, 175, 175);
+}
+
+a {
+    font-size: 1rem;
+    font-style: normal;    
+}
+
+.list-group {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+}
+
+.legal {
+    white-space: pre-line;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 991px) {
+    a {
+        font-size: 0.8rem;
+        
+    }
+
+    .legal {
+        font-size: 1rem;
+    }
+
+}
+

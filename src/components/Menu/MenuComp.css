@@ -1,0 +1,90 @@
+.container a {
+    text-decoration: none;
+  }
+
+  .titleSectionCard{
+    font-size: 2rem;    
+    font-family: 'Holtwood One SC', serif;
+    color: var(--color-4);
+    -webkit-text-fill-color: var(--color-4);
+    -webkit-text-stroke: 2px var(--color-3a);
+    text-align: start;
+    text-transform: uppercase;
+}
+
+a:hover .bodyCard{
+    background-color: #97e7a6 !important;
+    min-height: 240px;
+    display: flex;
+    padding: .5rem;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+ 
+a:hover .triangle {
+    display: block !important;
+  }
+
+  .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 0px solid transparent;
+    border-bottom: 20px solid red;
+    border-radius: 0 0 6px 0;
+    right: 0;
+    bottom: 0px;
+    display: none !important;
+  }
+
+
+.bodyCard{
+    position: relative;
+    background-color: var(--color-1a) !important;
+    min-height: 240px;
+    display: flex;
+    padding: .5rem;
+}
+
+.bodyCardTitle{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    color: var(--color-4) !important;
+}
+
+.bodyCardParagraph{
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 1rem;
+    color: var(--color-4);
+}
+
+.bodyCardPrice{
+    display: inline-block; /* Cambiado a inline-block */
+    font-size: 1.8rem;
+    font-family: 'Holtwood One SC', serif;
+    color: white;
+    text-align: right; /* Cambiado a "right" */
+    text-transform: uppercase;
+    background-color: blue;
+    padding: 0 10px; /* Ajusta el padding según sea necesario */
+    border-radius: 10px;
+
+    
+}
+
+.cardImg{
+    width: 100%;
+    height: auto;
+    border-radius: 8px !important;
+}
+
+.cardButton{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2rem 0 ;
+}

@@ -1,0 +1,41 @@
+#contenedor {
+    
+    text-align: center;
+  }
+  
+  #imagen {
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+  }
+  
+  .menu-button {
+    background-color: #053ea3;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .menu-button:hover {
+    background-color: #d70b00;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    #imagen {
+      margin-top: 30px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    #imagen {
+      margin-top: 20px;
+    }
+  
+    .menu-button {
+      padding: 8px 16px; 
+    }
+  }

@@ -1,0 +1,19 @@
+.textForm{
+    /* color: #ffffff !important; */
+    text-align: left !important;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Form.Label{
+    text-align: left;
+    color:  #ffffff !important;
+}
+
+label{
+    margin-left: .5rem;
+}
+
+.textForm{
+    color: black;
+}

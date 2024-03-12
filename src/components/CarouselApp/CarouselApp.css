@@ -1,0 +1,25 @@
+.titleHeaderCarousel{
+    font-size: 2.5rem;
+    font-family: 'Holtwood One SC', serif;
+    font-weight: 600;
+    color: var(--color-4);
+    -webkit-text-fill-color: var(--color-4);
+    -webkit-text-stroke: 3px var(--color-1a);
+    text-align: start;
+    line-height: 2.2rem;
+    text-transform: uppercase;
+}
+
+.subtitleHeaderCarousel{
+    font-size: 2rem;    
+    font-family: 'Holtwood One SC', serif;
+    color: var(--color-4);
+    -webkit-text-fill-color: var(--color-4);
+    -webkit-text-stroke: 2px var(--color-3a);
+    text-align: start;
+    text-transform: uppercase;
+}
+
+.carouselEspace{
+    margin-top: 124px;
+}
