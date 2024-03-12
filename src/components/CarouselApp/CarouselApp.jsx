@@ -1,7 +1,7 @@
 import React from 'react'
-import imagen01 from '/PY4-Restaurante/menu/imagen01.jpeg';
-import imagen02 from '/PY4-Restaurante/menu/imagen02.jpeg';
-import imagen03 from '/PY4-Restaurante/menu/imagen03.jpeg';
+import imagen01 from '/PY4-Restaurante/imagen01.jpeg';
+import imagen02 from '/PY4-Restaurante/imagen02.jpeg';
+import imagen03 from '/PY4-Restaurante/imagen03.jpeg';
 import { Carousel, Image } from 'react-bootstrap';
 
 import './CarouselApp.css';
