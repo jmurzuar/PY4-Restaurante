@@ -3,18 +3,20 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet'
 import './Map.css';
-import imagen01 from '../../../public/imagen01.jpeg';
-import imagen02 from '../../../public/imagen02.jpeg';
-import imagen03 from '../../../public/imagen03.jpeg';
+
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+
+let DefaultIcon = L.icon({
+    iconUrl: icon,
+    shadowUrl: iconShadow
+});
+
+L.Marker.prototype.options.icon = DefaultIcon;
 
 export const Map = () => {
 
-  L.Icon.Default.mergeOptions({
-    // Verifica que la ruta sea correcta y que esté accesible
-    
-    
-    
-})
+
     
     return (
     <div className="location-container">
