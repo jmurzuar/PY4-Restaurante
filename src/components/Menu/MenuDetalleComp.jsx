@@ -11,6 +11,9 @@ export const MenuDetalleComp = () => {
     const platosFiltrados = data.platos.filter(plato => plato.item===itemName);
     return (
       <>
+
+
+    <h2 className="Title-menu_detalle">{platosFiltrados[0].item}</h2>
       {/* <h1>{platosFiltrados[0].item}</h1> */}
       
       {/* <div>{itemName}</div>
@@ -27,7 +30,7 @@ export const MenuDetalleComp = () => {
                                 <Card.Img src={`${platosFiltrados[0].imagen}`} alt={platosFiltrados[0].item} className="cardImg" />
                             </Col>
                             <Col md={6}>
-                                <Card.Title className='bodyCardTitle1'>{platosFiltrados[0].item}</Card.Title>
+                                {/* <Card.Title className='bodyCardTitle1'>{platosFiltrados[0].item}</Card.Title> */}
                                 <Card.Text className='bodyCardParagraph text-justify'>{platosFiltrados[0].description}</Card.Text>
                                 <Card.Text className="bodyCardPrice mt-auto"> Valor $ {platosFiltrados[0].price}.-</Card.Text>
                             </Col>                           

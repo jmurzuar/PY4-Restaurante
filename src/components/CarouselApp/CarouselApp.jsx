@@ -14,8 +14,8 @@ export const CarouselApp = () => {
       <Carousel.Item>
         <Image src={imagen01} style={{ width: '100%' }} />
         <Carousel.Caption>
-        <div className='titleHeaderCarousel'>Elegancia culinaria sublime</div>
-            <p className='subtitleHeaderCarousel'>Sabores que enamoran siempre!...</p>
+        <div className='titleHeaderCarousel'>Elegancia culinaria</div>
+            {/* <p className='subtitleHeaderCarousel'>Sabores que enamoran siempre!...</p> */}
 
         </Carousel.Caption>
       </Carousel.Item>

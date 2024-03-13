@@ -17,3 +17,31 @@ label{
 .textForm{
     color: black;
 }
+
+.Title-reserva{
+    color: blue;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: antiquewhite;
+  }
+
+  .Texto-fomat{
+    padding: 30 px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+  }
+
+  @media (max-width: 990px) {
+
+    .Texto-fomat{
+        
+        margin-left: 10px;
+        margin-right: 10px;
+       
+      }
+  
+
+  
+  }

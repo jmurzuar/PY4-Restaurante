@@ -1,6 +1,6 @@
 .footer{
     display: flex;
-    background-color: blue;
+    
 }
 
 .container_left {
@@ -19,7 +19,7 @@
 .text-final{
     flex: 100%;
   text-align: center;
-  background-color: blue;
+  background-color: #0F71F2;
 }
 
 .list-group-item {

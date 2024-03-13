@@ -24,7 +24,15 @@ export const ReservationApp = () => {
   };
 
   return (
-    
+    <>
+    <h2 className="Title-reserva">RESERVA, Te estamos esperando!!!</h2>
+
+    <p className="Texto-fomat">
+    ¡Reserva ahora y asegura tu lugar en una experiencia culinaria inolvidable! Disfruta de nuestra deliciosa gastronomía en un entorno acogedor. Ya sea una cena romántica o una reunión con amigos, garantizamos un servicio excepcional y platos que deleitarán tu paladar. ¡Haz tu reserva hoy y déjanos cuidar de cada detalle mientras tú te relajas y saboreas momentos únicos en nuestro restaurante!
+    </p>
+    <br />
+
+    <div className="col-md-8 mx-auto">
     <div className='container g-0'>
       
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
@@ -108,5 +116,7 @@ export const ReservationApp = () => {
       </Form>
     </div>
     
+    </div>
+    </>
   )
 }

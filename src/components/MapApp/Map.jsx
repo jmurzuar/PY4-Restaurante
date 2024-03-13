@@ -19,7 +19,10 @@ export const Map = () => {
 
     
     return (
+      <>
+      <h2 className="Title-map">Te estamos esperando!!!</h2>
     <div className="location-container">
+      
       <div className="map">
         <MapContainer center={[-34.43963, -71.07724]} zoom={17} scrollWheelZoom={false} style={{ height: '400px', width: '100%' }}>
           <TileLayer
@@ -46,7 +49,7 @@ export const Map = () => {
         <p>Domingos: 13:00 - 17:00</p>
       </div>
     </div>
-
+    </>
     )
   
 }

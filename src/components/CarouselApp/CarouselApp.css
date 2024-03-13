@@ -8,6 +8,7 @@
     text-align: start;
     line-height: 2.2rem;
     text-transform: uppercase;
+    text-align: center;
 }
 
 .subtitleHeaderCarousel{
@@ -26,13 +27,16 @@
 
 .titleHeaderCarousel, .subtitleHeaderCarousel {
     background-color: rgba(255, 255, 255, 0.7); /* Fondo blanco con 70% de opacidad */
-    padding: 10px; /* Ajusta el espaciado interno según sea necesario */
+    padding: 5px; /* Ajusta el espaciado interno según sea necesario */
   }
 
   @media (max-width: 990px) {
 
     .titleHeaderCarousel{
-        font-size: 1.0rem;
+        font-size: 0.8rem;
+        padding: 0;
+        margin: 0;
+        
 
     }
 

@@ -10,6 +10,13 @@
     width: 48%; /* O el ancho deseado */
   }
 
+  .Title-map{
+    color: blue;
+    margin: 10px;
+    padding-left: 10px;
+    background-color: antiquewhite;
+  }
+
   @media (max-width: 990px) {
 
     .location-container{

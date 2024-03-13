@@ -9,9 +9,11 @@ import data from '../../menu.json';
 export const MenuComp = () => {
   return (
    
+    <>
+    <h2 className="Title-menu">Menú del día</h2>
+    
     <div className='container'>
-          <h2 className='titleSectionCard mt-5 ms-2 mb-4'>Menú del día</h2>
-          <Row xs={1} md={2} className="g-4">
+          <Row xs={1} md={2} className="g-2">
 
             {data.platos.map( (platos, idx) => (
               <Col key={idx}>
@@ -46,6 +48,6 @@ export const MenuComp = () => {
        
         </div>
     
-
+        </>
   )
 }

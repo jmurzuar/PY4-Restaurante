@@ -97,3 +97,11 @@ a:hover .triangle {
     justify-content: center;
     margin: 2rem 0 ;
 }
+
+.Title-menu{
+    color: blue;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: antiquewhite;
+  }
