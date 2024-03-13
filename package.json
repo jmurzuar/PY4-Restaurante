@@ -1,5 +1,6 @@
 {
   "name": "py-03-restaurant",
+  "homepage": "/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
