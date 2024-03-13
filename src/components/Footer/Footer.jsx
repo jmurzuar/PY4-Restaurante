@@ -11,7 +11,6 @@ export const Footer = () => {
         <>
             <div className="footer">
             <div className="container_left">
-            <div>
                             <h5 className='text-center p-1 text-white'>Redes Sociales</h5>
                             <ul className="list-group text-center">
                                 <li className="list-group-item bg-transparent border-0 text-white">
@@ -48,14 +47,15 @@ export const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-            </div>
-            <div>
-                <p className='text-center text-white legal'>
+            
+                        </div>
+            <div className='text-final'> 
+                <p className='text-central text-white legal'>
                             PY4 Aplicación "Restaurante" - DWFS C11 UDD © 2024. <br />
                             Todos los derechos reservados. - v1.0.0
                         </p>
             </div>
-            </div>
+            
         </>
 
     )

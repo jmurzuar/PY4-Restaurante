@@ -26,6 +26,7 @@ export const ReservationApp = () => {
   return (
     
     <div className='container g-0'>
+      
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
 
       <Row className="mb-3">        

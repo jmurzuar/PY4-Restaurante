@@ -1,12 +1,13 @@
 import React from 'react'
 import { ReservationApp } from '../components/Reservation/ReservationApp'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const Reservas = () => {
   return (
     
     <div className="container">
       <div className="ptop"></div>
-      <h2 className='titleAbout mt-5 mb-4'>RESERVA<br />TE ESPERAMOS!...</h2>
+      <h2 className='titleAbout mt-5 mb-4'>RESERVA, TE ESTAMOS ESPERANDO!...</h2>
         <div className="reservation" id='about'>
           
           <p className="textReservation col-md-8 mx-auto my-5">

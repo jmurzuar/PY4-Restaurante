@@ -10,7 +10,7 @@ export const MenuComp = () => {
   return (
    
     <div className='container'>
-          <h2 className='titleSectionCard mt-5 ms-2 mb-4'>Menú<br /> Los especiales para hoy</h2>
+          <h2 className='titleSectionCard mt-5 ms-2 mb-4'>Menú del día</h2>
           <Row xs={1} md={2} className="g-4">
 
             {data.platos.map( (platos, idx) => (

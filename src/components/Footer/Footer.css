@@ -1,18 +1,63 @@
-.col-lg-4 {
+.footer{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background: red;
+    background-color: blue;
 }
 
-.col-lg-8 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    background: green;
+.container_left {
+    flex: 30%;
+    background-color: red;
+
+    
+}
+
+.container_right{
+    flex: 70%;
+    background-color: green;
+
+}
+
+.text-final{
+    flex: 100%;
+  text-align: center;
+  background-color: blue;
 }
 
 .list-group-item {
+    margin: 0;
+}
+
+.text-white {
+    color: white;
+}
+
+.bi {
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+}
+
+.bi:hover {
+    color: rgb(190, 175, 175);
+}
+
+a {
+    font-size: 1rem;
+    font-style: normal;    
+}
+
+.list-group {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+
+    justify-content: center;
+
+}
+
+.legal {
+    white-space: pre-line;
+    padding-top: 10px;
+}.list-group-item {
     margin: 0;
 }
 
@@ -46,17 +91,7 @@ a {
     padding-top: 10px;
 }
 
-
-.footer{
-    background-color: blue;
-}
-
-.container_left {
-    
-}
-
-
-@media (max-width: 991px) {
+@media (max-width: 990px) {
     a {
         font-size: 0.8rem;
         
@@ -66,5 +101,12 @@ a {
         font-size: 1rem;
     }
 
+.footer{
+    flex-direction: column;
 }
 
+.container_left .container_right{
+    flex: 100%;
+}
+
+}

@@ -13,13 +13,19 @@
 }
 
 a:hover .bodyCard{
-    background-color: #97e7a6 !important;
     min-height: 240px;
     display: flex;
     padding: .5rem;
     cursor: pointer;
     box-sizing: border-box;
+
+    box-shadow: 15px 15px 40px rgba(58, 56, 59, 0.4);
+    transform: translateY(-1%);
+    transition: 0.5s;
+
 }
+
+
 
 
  

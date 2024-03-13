@@ -37,10 +37,11 @@ export const Map = () => {
       <div className="contact-info">
         <h2>Información de Contacto</h2>
         <p>Dirección: Germán Riesco 900, San Vicente</p>
-        <p>Phone: 123-456-7890</p>
+        <p>Teléfono: 123-456-7890</p>
         <p>Correo: react-flavor@example.com</p>
+        <br />
         <h2>Horarios de atención</h2>
-        <p>Lunes - Viernes: 11.00 - 23.00</p>
+        <p>Lunes - Viernes: 11:00 - 23:00</p>
         <p>Sábados: 11:00 - 02:00</p>
         <p>Domingos: 13:00 - 17:00</p>
       </div>

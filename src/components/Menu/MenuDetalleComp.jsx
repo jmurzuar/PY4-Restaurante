@@ -16,7 +16,7 @@ export const MenuDetalleComp = () => {
       {/* <div>{itemName}</div>
       <div>{platosFiltrados[0].imagen}</div> */}
       
-      <div className="mt-5 mb-5">
+      <div className="mt-3 mb-4">
             <div className="ptop"></div>
             <div className='container'>    
             {/* <h2 className='titleSectionCard mt-5 ms-2 mb-4'>Menú<br/>El detalle</h2> */}
