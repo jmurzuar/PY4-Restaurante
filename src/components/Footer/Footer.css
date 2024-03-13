@@ -47,6 +47,15 @@ a {
 }
 
 
+.footer{
+    background-color: blue;
+}
+
+.container_left {
+    
+}
+
+
 @media (max-width: 991px) {
     a {
         font-size: 0.8rem;

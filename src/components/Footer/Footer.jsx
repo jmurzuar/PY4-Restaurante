@@ -9,10 +9,9 @@ export const Footer = () => {
     return (
 
         <>
-            <Card bg='primary rounded-0'>
-                <Row>
-                    <Col xs={12} lg={4} className="col-lg-4">
-                        <div>
+            <div className="footer">
+            <div className="container_left">
+            <div>
                             <h5 className='text-center p-1 text-white'>Redes Sociales</h5>
                             <ul className="list-group text-center">
                                 <li className="list-group-item bg-transparent border-0 text-white">
@@ -26,10 +25,7 @@ export const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                    </Col>
-
-                    <Col xs={12} lg={8} className="col-lg-8">
-                        <div>
+                <div className="container_right">
                             <h5 className='text-center p-1 text-white'>Contactos</h5>
                             <ul className="list-group text-center">
                                 <li className="list-group-item bg-transparent border-0 text-white">
@@ -52,21 +48,14 @@ export const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                    </Col>
-
-
-
-
-                </Row>
-
-                <Row>
+            </div>
+            <div>
                 <p className='text-center text-white legal'>
                             PY4 Aplicación "Restaurante" - DWFS C11 UDD © 2024. <br />
                             Todos los derechos reservados. - v1.0.0
                         </p>
-                </Row>
-             
-            </Card >
+            </div>
+            </div>
         </>
 
     )
