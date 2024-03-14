@@ -1,7 +1,7 @@
 {
     "platos" : [
         {   
-            "imagen": "/PY4-Restaurante/menu/foto1.webp", 
+            "imagen": "/menu/foto1.webp", 
             "item": "Triple Play", 
             "description":"El Triple Play es una espectacular indulgencia gastronómica que combina tres platos irresistibles en una experiencia culinaria única. Este plato, que cautiva los sentidos, incluye una deliciosa porción de costillas de cerdo a la barbacoa, cocinadas a la perfección para lograr un equilibrio perfecto entre lo tierno y lo ahumado. Las costillas, cubiertas con una salsa dulce y pegajosa, se desprenden del hueso con facilidad y satisfacen los deseos de los amantes de la carne. Acompañando las costillas, encontrarás camarones crujientes y apanados que añaden una textura fresca y sabrosa a esta mezcla de sabores. Los camarones están sazonados con una mezcla secreta de especias que los hace aún más adictivos.Por último, pero no menos importante, los chicken tenders completan este trío de sabores. Estos tiernos trozos de pechuga de pollo están perfectamente empanizados y fritos hasta obtener un dorado crujiente por fuera y una carne jugosa por dentro. El Triple Play es una experiencia culinaria que satisface todos los antojos, ofreciendo una combinación de sabores y texturas que deleitarán tu paladar y te harán volver por más. Es el plato perfecto para los amantes de la comida reconfortante y la diversidad de sabores en una sola comida.", 
             "price": "19.900"},

@@ -6,7 +6,7 @@ export const Blog = () => {
     const blogPosts = [
         {
           id: 1,
-          image: '/PY4-Restaurante/imagen02.jpeg',
+          image: '/imagen02.jpeg',
           title: 'Receta de la semana: Tacos al pastor',
           date: '25.02.2024',
           author: 'Chef Juan Manuel',
@@ -14,7 +14,7 @@ export const Blog = () => {
         },
         {
           id: 2,
-          image: '/PY4-Restaurante/imagen01.jpeg',
+          image: '/imagen01.jpeg',
           title: 'Evento especial: Noche de música en vivo',
           date: '29.02.2024',
           author: 'Chef Juan Manuel',
@@ -22,7 +22,7 @@ export const Blog = () => {
         },
         {
           id: 3,
-          image: '/PY4-Restaurante/imagen03.jpeg',
+          image: '/imagen03.jpeg',
           title: 'Detrás del menú: Historia de nuestro platillo estrella',
           date: '10.03.2024',
           author: 'Chef Juan Manuel',
