@@ -71,7 +71,7 @@ a:hover .triangle {
 }
 
 .bodyCardPrice{
-    display: inline-block; /* Cambiado a inline-block */
+    /* display: inline-block; Cambiado a inline-block */
     font-size: 1.8rem;
     font-family: 'Holtwood One SC', serif;
     color: white;
