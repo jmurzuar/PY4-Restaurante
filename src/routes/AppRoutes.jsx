@@ -14,7 +14,7 @@ export const AppRoutes = () => {
     <>
     
     <Routes>
-        <Route path="/PY4-Restaurante/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/PY4-Restaurante/about" element={<About />} />
         <Route path="/PY4-Restaurante/menu" element={<Menu />} />
         <Route path='/PY4-Restaurante/menu/:itemName' element={<MenuDetails />} />
