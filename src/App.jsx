@@ -1,4 +1,4 @@
-import { NavbarComponent } from "./components/Reservation/NavbarApp/NavbarComponent"
+import { NavbarComponent } from "./components/NavbarApp/NavbarComponent"
 import { AppRoutes } from "./routes/AppRoutes"
 import { Footer } from "./components/Footer/Footer"
 import './index.css';

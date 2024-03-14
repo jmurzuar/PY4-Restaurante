@@ -20,3 +20,9 @@
   .bodyCardParagraph {
     padding-top: 20px;
   }
+
+  .container{
+    cursor: pointer;
+    user-select: none;
+  }
+  

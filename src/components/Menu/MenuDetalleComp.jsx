@@ -7,8 +7,6 @@ import './MenuDetalleComp.css';
 
 
 export const MenuDetalleComp = () => {
-    const {itemName} = useParams()
-    const platosFiltrados = data.platos.filter(plato => plato.item===itemName);
 
     const { pathname } = useLocation();
 
@@ -16,6 +14,11 @@ export const MenuDetalleComp = () => {
     window.scrollTo(0, 0);
   }, [pathname]);
 
+  
+    const {itemName} = useParams()
+    const platosFiltrados = data.platos.filter(plato => plato.item===itemName);
+
+    
     return (
       <>
 
