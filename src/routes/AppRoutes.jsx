@@ -15,12 +15,12 @@ export const AppRoutes = () => {
     
     <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/PY4-Restaurante/about" element={<About />} />
-        <Route path="/PY4-Restaurante/menu" element={<Menu />} />
-        <Route path='/PY4-Restaurante/menu/:itemName' element={<MenuDetails />} />
-        <Route path="/PY4-Restaurante/blog" element={<Blog />} />   
-        <Route path="/PY4-Restaurante/reservas" element={<Reservas />} />
-        <Route path='/PY4-Restaurante/*' element={<Navigate to='/PY4-Restaurante/' />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path='/menu/:itemName' element={<MenuDetails />} />
+        <Route path="/blog" element={<Blog />} />   
+        <Route path="/reservas" element={<Reservas />} />
+        <Route path='/*' element={<Navigate to='/' />} />
     </Routes>
     </>
 

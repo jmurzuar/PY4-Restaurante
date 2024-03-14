@@ -9,7 +9,7 @@ export const BodyApp = () => {
       <div className="content">
         <h1>Bienvenidos a nuestro Restaurante</h1>
         <p>Descube nuestro delicioso menú</p>
-        <Link to="/PY4-Restaurante/Menu/#" className="btn btn-primary">Ir al menú</Link>
+        <Link to="/Menu" className="btn btn-primary">Ir al menú</Link>
         
       </div>
     </div>

@@ -47,7 +47,7 @@ export const MenuComp = () => {
           {currentItems.map((platos, idx) => (
             <Col key={idx}>
               <div>
-                <Link to={`/PY4-Restaurante/Menu/${platos.item}`}>
+                <Link to={`/Menu/${platos.item}`}>
                   <Card className="bodyCard h-100">
                     <Card.Body className="d-flex flex-column">
                       <Row>
