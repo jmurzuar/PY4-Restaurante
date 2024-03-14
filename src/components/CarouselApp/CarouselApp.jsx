@@ -31,7 +31,7 @@ export const CarouselApp = () => {
       <Carousel.Item>
         <Image src={imagen03} style={{ width: '100%' }} />
         <Carousel.Caption>
-          <h3 className='titleHeaderCarousel'>Jugos naturales de todos los sabores</h3>
+          <h3 className='titleHeaderCarousel'>Jugos y saboress naturales</h3>
 
         </Carousel.Caption>
       </Carousel.Item>

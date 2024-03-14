@@ -1,5 +1,5 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { useLocation, useParams } from 'react-router-dom'
 
 import data from '../../menu.json'; 
 import { Card, Col, Row } from 'react-bootstrap';
@@ -9,6 +9,13 @@ import './MenuDetalleComp.css';
 export const MenuDetalleComp = () => {
     const {itemName} = useParams()
     const platosFiltrados = data.platos.filter(plato => plato.item===itemName);
+
+    const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
     return (
       <>
 

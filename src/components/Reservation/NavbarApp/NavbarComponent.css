@@ -1,3 +1,7 @@
-Container{
-    background-color: brown;
-}
+@media screen and (max-width: 400px) {
+    /* Reduce text size for small screens */
+    .navbar-brand,
+    .nav-link {
+      font-size: 0.9rem !important;
+    }
+  }
