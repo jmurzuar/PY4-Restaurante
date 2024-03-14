@@ -73,14 +73,14 @@ export const ReservationApp = () => {
 
         <Form.Group as={Col} md="6" controlId="validationCustom05">
           <Form.Label className='textForm'>Email *</Form.Label>
-          <Form.Control required type="email" placeholder="name@example.com" defaultValue="" className='formImput'/>
+          <Form.Control required type="email" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$" placeholder="name@example.com" defaultValue="" className='formImput'/>
           <Form.Control.Feedback type="invalid">Debe indicar un correo válido</Form.Control.Feedback>
         </Form.Group>
 
         <Form.Group as={Col} md="6" controlId="validationCustom06">
           <Form.Label className='textForm'>Teléfono *</Form.Label>
-          <Form.Control required type="tel" placeholder="Telefono" defaultValue="" className='formImput'/>
-          <Form.Control.Feedback>Se ve bien!</Form.Control.Feedback>
+          <Form.Control required type="tel" pattern="[0-9] [0-9]{4} [0-9]{4}" placeholder="formato 9 1234 5678" defaultValue="" className='formImput'/>
+          <Form.Control.Feedback type="invalid">Deber ser un número válido</Form.Control.Feedback>
         </Form.Group>
 
       </Row>      
