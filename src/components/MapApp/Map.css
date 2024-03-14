@@ -17,6 +17,10 @@
     background-color: antiquewhite;
   }
 
+  h2 {
+    color: blue !important;
+  }
+
   @media (max-width: 990px) {
 
     .location-container{
@@ -37,3 +41,5 @@
 }
   
   }
+
+ 

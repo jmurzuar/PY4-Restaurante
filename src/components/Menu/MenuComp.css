@@ -59,7 +59,8 @@ a:hover .triangle {
     font-family: 'Hind Vadodara', sans-serif;
     font-size: 1.5rem !important;
     font-weight: bold;
-    color: var(--color-4) !important;
+    color: blue !important;
+    background-color: antiquewhite;
 }
 
 .bodyCardParagraph{

@@ -2,6 +2,6 @@
     /* Reduce text size for small screens */
     .navbar-brand,
     .nav-link {
-      font-size: 0.9rem !important;
+      font-size: 0.8rem !important;
     }
   }

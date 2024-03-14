@@ -8,24 +8,24 @@ export const Blog = () => {
           id: 1,
           image: '/PY4-Restaurante/imagen02.jpeg',
           title: 'Receta de la semana: Tacos al pastor',
-          date: '2023.12.01',
-          author: 'Juan Manuel',
+          date: '25.02.2024',
+          author: 'Chef Juan Manuel',
           content: 'Hoy compartimos nuestra receta especial de tacos al pastor, ¡una delicia mexicana que no te puedes perder!'
         },
         {
           id: 2,
           image: '/PY4-Restaurante/imagen01.jpeg',
           title: 'Evento especial: Noche de música en vivo',
-          date: '2023.12.01',
-          author: 'Juan Manuel',
+          date: '29.02.2024',
+          author: 'Chef Juan Manuel',
           content: 'Acompáñanos este viernes para disfrutar de una noche de música en vivo en nuestro restaurante. ¡No te lo pierdas!'
         },
         {
           id: 3,
           image: '/PY4-Restaurante/imagen03.jpeg',
           title: 'Detrás del menú: Historia de nuestro platillo estrella',
-          date: '2023.12.01',
-          author: 'Juan Manuel',
+          date: '10.03.2024',
+          author: 'Chef Juan Manuel',
           content: 'Conoce la historia detrás de nuestro platillo más popular y descubre por qué se ha convertido en el favorito de nuestros clientes.'
         }
       ];
