@@ -1,5 +1,5 @@
 .background-container {
-    background-image: url('../../assets/restaurant.jpg');  /*Replace with your background image URL */
+    background-image: url('/restaurant.jpg');  /*Replace with your background image URL */
     background-size: cover;
     background-position: center;
     height: 100vh;

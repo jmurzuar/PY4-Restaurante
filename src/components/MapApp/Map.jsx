@@ -4,8 +4,8 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet'
 import './Map.css';
 
-import icon from 'leaflet/dist/images/marker-icon.png';
-import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+import icon from '/markericon.png';
+import iconShadow from '/markershadow.png';
 
 let DefaultIcon = L.icon({
     iconUrl: icon,
