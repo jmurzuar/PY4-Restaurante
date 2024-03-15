@@ -61,6 +61,8 @@ a:hover .triangle {
     font-weight: bold;
     color: blue !important;
     background-color: antiquewhite;
+    border-radius: 8px !important;
+    padding-left: 7px;
     
     
 }
@@ -109,4 +111,5 @@ a:hover .triangle {
     padding-bottom: 10px;
     padding-left: 10px;
     background-color: antiquewhite;
+    border-radius: 8px !important;
   }

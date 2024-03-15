@@ -12,6 +12,7 @@
     background-color: rgba(255, 255, 255, 0.8); /* Background color with opacity */
     padding: 20px;
     text-align: center;
+    border-radius: 8px !important;
   }
   
   .content h1 {
@@ -37,3 +38,21 @@
     background-color: #0056b3;
     border-color: #0056b3;
   }
+
+  @media (max-width: 990px) {
+
+    .content{
+      margin-left: 10px;
+      margin-right: 10px;
+  }
+
+  .content h1 {
+    font-size: 2rem;
+  }
+  
+  .content p {
+    font-size: 1rem;
+    margin-bottom: 1%;
+  }
+
+}

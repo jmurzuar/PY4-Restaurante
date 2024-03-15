@@ -24,6 +24,8 @@ label{
     padding-bottom: 10px;
     padding-left: 10px;
     background-color: antiquewhite;
+    border-radius: 8px !important;
+    
   }
 
   .Texto-fomat{

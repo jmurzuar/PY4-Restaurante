@@ -30,7 +30,7 @@ export const Map = () => {
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           />
           
-          <Marker position={[-34.4394, -71.07740]}>
+          <Marker position={[-34.4394, -71.07740]} draggable={false}>
             <Popup>
             Germán Riesco 900<br /> San Vicente.
             </Popup>
@@ -38,6 +38,9 @@ export const Map = () => {
         </MapContainer>
       </div>
       <div className="contact-info">
+        <h2>Una historia de Sabor familiar</h2>
+        <p>Desde 1940 estamos alimentando con los sabores de nuestra tierra, una tradición familiar que a pasado de generación en generación, hoy tu puedes ser parte de esta experiencia única, <strong>te esperamos!!!</strong></p>
+        <br />
         <h2>Información de Contacto</h2>
         <p>Dirección: Germán Riesco 900, San Vicente</p>
         <p>Teléfono: 123-456-7890</p>

@@ -1,7 +1,9 @@
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     /* Reduce text size for small screens */
-    .navbar-brand,
-    .nav-link {
-      font-size: 0.8rem !important;
+
+    .NavLinkCustom {
+      padding-right: 3px !important;
+      padding-left: 3px !important; /* Puedes ajustar el valor según sea necesario */
     }
+
   }

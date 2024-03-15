@@ -10,15 +10,27 @@
     width: 48%; /* O el ancho deseado */
   }
 
+  .contact-info {
+    padding-right: 10px;
+  }
+
+  
+
   .Title-map{
     color: blue;
     margin: 10px;
     padding-left: 10px;
     background-color: antiquewhite;
+    border-radius: 8px !important;
   }
 
   h2 {
     color: blue !important;
+  }
+
+  p{
+    text-align: justify;
+    
   }
 
   @media (max-width: 990px) {
@@ -37,7 +49,7 @@
     padding-bottom: 10px;
     flex: 100%;
     width: 100%;
-    text-align: center;
+    
 }
   
   }
