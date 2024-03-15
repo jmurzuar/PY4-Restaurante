@@ -61,6 +61,8 @@ a:hover .triangle {
     font-weight: bold;
     color: blue !important;
     background-color: antiquewhite;
+    
+    
 }
 
 .bodyCardParagraph{
@@ -90,6 +92,8 @@ a:hover .triangle {
     width: 100%;
     height: auto;
     border-radius: 8px !important;
+    margin-bottom: 10px;
+    
 }
 
 .cardButton{
