@@ -22,6 +22,7 @@
   .content p {
     font-size: 1.5rem;
     margin-bottom: 20px;
+    text-align: center;
   }
   
   .btn-primary {

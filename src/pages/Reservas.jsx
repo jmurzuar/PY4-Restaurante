@@ -1,20 +1,13 @@
 import React from 'react'
-import { ReservationApp } from '../components/Reservation/ReservationApp'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ReservasApp from '../components/ReservasApp/ReservasApp'
 
 export const Reservas = () => {
   return (
+    <>
+    {/* <ReservationApp /> */}
     
-    <div className="container">
-      <div className="ptop"></div>
-      
-            <ReservationApp />
-      
+    <ReservasApp />
 
-      </div>
-      
-
-    
-
+    </>
   )
 }

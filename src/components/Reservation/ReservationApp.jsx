@@ -3,6 +3,7 @@ import { Button, Col, Form, Row } from 'react-bootstrap';
 import './ReservationApp.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 export const ReservationApp = () => {
 
   const today = new Date();
@@ -20,8 +21,21 @@ export const ReservationApp = () => {
       event.stopPropagation();
     }
 
+    else {
+      const nombre = form.elements['nombre'].value;
+      const apellido = form.elements['apellido'].value;
+      // Enviar datos al componente padre
+      // alert(`Nombre: ${nombre}, Apellido: ${apellido}`);
+      addMovie({ nombre, apellido });
+      form.reset();
+      setValidated(false);
+    }
+
+
     setValidated(true);
   };
+
+ 
 
   return (
     <>
@@ -57,13 +71,13 @@ export const ReservationApp = () => {
 
         <Form.Group as={Col} md="6" controlId="validationCustom03">
           <Form.Label className='textForm'>Nombre *</Form.Label>
-          <Form.Control required type="text" placeholder="Nombre" defaultValue="" className='formImput'/>
+          <Form.Control required type="text" placeholder="Nombre" defaultValue="" name="nombre" className='formImput'/>
           <Form.Control.Feedback type="invalid">Debe indicar el nombre</Form.Control.Feedback>
         </Form.Group>
 
         <Form.Group as={Col} md="6" controlId="validationCustom04">
           <Form.Label className='textForm'>Apellido *</Form.Label>
-          <Form.Control required type="text" placeholder="Apellido" defaultValue="" className='formImput'/>
+          <Form.Control required type="text" placeholder="Apellido" defaultValue="" name="apellido" className='formImput'/>
           <Form.Control.Feedback type="invalid">Debe indicar el apellido</Form.Control.Feedback>
         </Form.Group>
 
@@ -120,3 +134,5 @@ export const ReservationApp = () => {
     </>
   )
 }
+
+

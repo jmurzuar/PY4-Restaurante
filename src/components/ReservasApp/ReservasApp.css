@@ -1,0 +1,28 @@
+
+.custom-reserva-button:hover {
+    background-color: #800080;
+    border-color: #800080;
+}
+
+.Title-reserva{
+    color: blue;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    background-color: antiquewhite;
+    border-radius: 8px !important;
+    
+  }
+
+  .Texto-fomat{
+    padding: 30 px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: justify;
+  }
+
+.btn-reserva{
+    text-align: right;
+    padding-right: 30px;
+}
+

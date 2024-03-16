@@ -7,6 +7,7 @@ import { Reservas } from '../pages/Reservas'
 import { MenuDetails } from '../pages/MenuDetails'
 import { Blog } from '../components/BlogApp/Blog'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BaseReservas } from '../pages/BaseReservas'
 
 export const AppRoutes = () => {
   return (
@@ -20,6 +21,7 @@ export const AppRoutes = () => {
         <Route path='/menu/:itemName' element={<MenuDetails />} />
         <Route path="/blog" element={<Blog />} />   
         <Route path="/reservas" element={<Reservas />} />
+        <Route path='/BaseReservas' element={<BaseReservas />} />
         <Route path='/*' element={<Navigate to='/' />} />
     </Routes>
     </>

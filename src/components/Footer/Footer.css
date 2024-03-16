@@ -89,6 +89,7 @@ a {
 .legal {
     white-space: pre-line;
     padding-top: 10px;
+    text-align: center;
 }
 
 @media (max-width: 990px) {
