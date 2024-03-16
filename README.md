@@ -18,22 +18,21 @@
 
 Este proyecto está enfocado en construir una aplicación web para un restaurante.
 
-Lo que deberás incluir como requisitos mínimos será:
+La incluye las siguientes caracteísticas:
 
-Una sección o página sobre información principal del restaurante
-Una sección de formulario de contacto
-Una sección de datos de ubicación y correo electrónico
-Como características opcionales:
+- Una sección / página sobre información principal del restaurante
+- Una sección de formulario de contacto
+- Una sección de datos de ubicación y correo electrónico
+- Un componente que permita reservar una mesa en una hora y fecha específica para un usuario
+- Un componente que incluya el menú completo del restaurante
+- Adaptado a móviles
+- Un blog que incluye tres artículos
 
-Un componente que permita reservar una mesa en una hora y fecha específica para un usuario
-Un componente que incluya el menú completo del restaurante
-Adaptado a móviles
-Un blog que incluya un artículo
-
-"Vite" como el generador base de la aplicación
-Componentes bajo "Hooks"
-CSS para el aspecto visual de componentes
-Cloud Firestore para el manejo de datos
+Este proyectos fue creado con:
+- "Vite" como el generador base de la aplicación
+- Componentes bajo "Hooks"
+- CSS para el aspecto visual de componentes
+- Cloud Firestore para el manejo de datos
 
 [volver al índice](#ÍNDICE)
 ****
@@ -41,34 +40,35 @@ Cloud Firestore para el manejo de datos
 ## 2. Estructura
 
 ### Estructura general de la página
+
+### Pantalla de inicio e información del restaurante
 ![Esquema1](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/esquema%20Inicio%20y%20nosotros.png)
 
+### Pantalla de menú y detalle menú
 ![Esquema1](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/esquema_menu.png)
 
+### Esquema de pantalla de reservas y base reservas
 ![Esquema1](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/esquema_reservas.png)
 
-Esta aplicación contiene 5 bloques, en 3 de ellos se utiliza JavaScript:
-
-- HEADER, Sección con el nombre del Dashboard y reloj y fecha
-- INDICADORES ECONÓMICOS CHILE, valores de principales indicadores chilenos del día, con gráfico de los últimos 12 valores históricos
-- INDICADORES MONEDAS ELECTRÓNICAS, valores de las dos principales monedas electrónicas, con el último valore reportado y gráfico de los últimos 30 días, además se incluye un gráfico con actualiación cada 10 segundos, con los últimos 10 registros de bitcoin
-- CLIMA CHILE, se muestran tarjetas con el valore actual del clima de 6 cuidades de Chile, incluye información de cuidad, temperatura, descripción del clima, velocidad del viento e ícono animado de la descripción del clima 
-- FOOTER, información adicional de la página
 
 [volver al índice](#ÍNDICE)
 ****
 
 ## 3. Pantallas
 
-### Pantalla completa
+### Pantalla de inicio e información del restaurante
 ![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20Inicio%20y%20nosotros.png)
 
+### Pantalla de base con tarjetas del menú
 ![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20menu%201.png)
 
+### Pantalla con detalle de un plato del menú
 ![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20menu%202.png)
 
+### Pantalla con formulaio de reserva
 ![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20reserva.png)
 
+### Pantalla de base de reservas
 ![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20base%20reserva.png)
 
 
@@ -79,17 +79,7 @@ Esta aplicación contiene 5 bloques, en 3 de ellos se utiliza JavaScript:
 
 ![LogosPY2](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/tecnologias.png)
 
-El objetivo principal de este proyecto fue desarrollar una aplicación que consuma una API, utilizando interfaz HTML, CSS y JavaScript
-
-Aplicando:
-
-- Prototipado simple que muestra un DASHBOARD con información externa y dinámica
-- Etiquetas estándar HTML5.
-- CSS, incluyendo técnicas Flexbox y Responsive Web Design.
-- Se utiliza Fetch API y JSON para consumir y disponibilizar la información de las API's
-- Se realiza control de versiones con GIT y GITHUB
-- Se publica solución en netlify
-
+El objetivo principal de este proyecto fue desarrollar una aplicación con REACT, Compomentes, HOOKS, utilizando interfaz HTML, CSS y JavaScript
 
 
 [volver al índice](#ÍNDICE)
