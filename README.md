@@ -1,4 +1,4 @@
-src/assets/banner.png
+[src/assets/banner.png](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/banner.png)
 
 # PROYECTO 4: Aplicación "Restaurante"
 
