@@ -43,9 +43,9 @@ Cloud Firestore para el manejo de datos
 ### Estructura general de la página
 ![Esquema1](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/esquema%20Inicio%20y%20nosotros.png)
 
-![Esquema1](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/esquema%20Inicio%20y%20nosotros.png)
+![Esquema1](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/esquema_menu.png)
 
-![Esquema1](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/esquema%20Inicio%20y%20nosotros.png)
+![Esquema1](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/esquema_reservas.png)
 
 Esta aplicación contiene 5 bloques, en 3 de ellos se utiliza JavaScript:
 
@@ -63,7 +63,13 @@ Esta aplicación contiene 5 bloques, en 3 de ellos se utiliza JavaScript:
 ### Pantalla completa
 ![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20Inicio%20y%20nosotros.png)
 
+![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20menu%201.png)
 
+![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20menu%202.png)
+
+![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20reserva.png)
+
+![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20base%20reserva.png)
 
 
 [volver al índice](#ÍNDICE)
@@ -71,7 +77,7 @@ Esta aplicación contiene 5 bloques, en 3 de ellos se utiliza JavaScript:
 
 ## 4. Tecnologías Utilizadas
 
-![LogosPY2](https://github.com/jmurzuar/PY3-API/blob/main/img/tecno1.png)
+![LogosPY2](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/tecnologias.png)
 
 El objetivo principal de este proyecto fue desarrollar una aplicación que consuma una API, utilizando interfaz HTML, CSS y JavaScript
 
@@ -84,18 +90,6 @@ Aplicando:
 - Se realiza control de versiones con GIT y GITHUB
 - Se publica solución en netlify
 
-
-![API](https://github.com/jmurzuar/PY3-API/blob/main/img/api.png)
-
-Durante el desarrollo de este proyecto se han utilizado las siguientes API's 
-
-- **openweathermap.org/api**, API pública con suscripción gratuita para seguimiento del clima en distintas ciudades del mundo
-- **api.coincap.io**, API pública sin suscripción con información de las momedas electrónicas
-- **mindicador.cl/api**, API pública Chilena sin suscripción que muestra información de los indicadores económicos Chilenos
-
-Para realizar los gráficos, se utilizó la siguiente librería
-
-- Chart.js
 
 
 [volver al índice](#ÍNDICE)
