@@ -1,4 +1,4 @@
-![banner](https://github.com/jmurzuar/PY3-API/blob/main/img/banner.png)
+src/assets/banner.png
 
 # PROYECTO 4: Aplicación "Restaurante"
 
