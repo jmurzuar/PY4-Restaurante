@@ -41,7 +41,11 @@ Cloud Firestore para el manejo de datos
 ## 2. Estructura
 
 ### Estructura general de la página
-![Esquema1](https://github.com/jmurzuar/PY3-API/blob/main/img/modelo_basico.png)
+![Esquema1](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/esquema%20Inicio%20y%20nosotros.png)
+
+![Esquema1](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/esquema%20Inicio%20y%20nosotros.png)
+
+![Esquema1](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/esquema%20Inicio%20y%20nosotros.png)
 
 Esta aplicación contiene 5 bloques, en 3 de ellos se utiliza JavaScript:
 
@@ -57,10 +61,9 @@ Esta aplicación contiene 5 bloques, en 3 de ellos se utiliza JavaScript:
 ## 3. Pantallas
 
 ### Pantalla completa
-![Pantalla](https://github.com/jmurzuar/PY3-API/blob/main/img/pantalla1.png)
+![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20Inicio%20y%20nosotros.png)
 
-### Pantalla responsive
-![Responsive](https://github.com/jmurzuar/PY3-API/blob/main/img/pantalla2.png)
+
 
 
 [volver al índice](#ÍNDICE)
