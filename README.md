@@ -59,7 +59,7 @@ Este proyectos fue creado con:
 ### Pantalla de inicio e información del restaurante
 ![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20Inicio%20y%20nosotros.png)
 
-### Pantalla de base con tarjetas del menú
+### Pantalla con tarjetas del menú
 ![Pantalla](https://github.com/jmurzuar/PY4-Restaurante/blob/master/src/assets/pantalla%20menu%201.png)
 
 ### Pantalla con detalle de un plato del menú
