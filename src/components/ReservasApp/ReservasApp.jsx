@@ -25,7 +25,7 @@ const ReservasApp = () => {
         if (validateForm()) { //Si el formulario es valido llama a createCliente
             await createCliente(); // Agrega la informacion a la base de datos
             clearForm(); // Limpia el formulario
-            showModalWithMessage('Felicitaciones', ' Su reserva se ha realizada');
+            showModalWithMessage('Felicitaciones', 'Su reserva se ha realizado!!!, nos contacteremos con usted para confirmar disponibilidad y revisar los detalles, ya estamos trabajando para hacer de su visita una experiencia inolvidable');
             
             // alert("Reserva Realizada") // Envia una alerta al usuario
         }

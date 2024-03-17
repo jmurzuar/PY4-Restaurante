@@ -25,7 +25,7 @@
 }
 
 .card-grupo1 {
-    width: calc(25%); /* Ancho de la tarjeta: 33.33% menos el espacio entre tarjetas */
+    width: calc(30%); /* Ancho de la tarjeta: 33.33% menos el espacio entre tarjetas */
     overflow: hidden;
     border-radius: 10px;
     cursor: pointer;
