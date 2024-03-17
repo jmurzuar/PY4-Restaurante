@@ -1,102 +1,71 @@
-import React, { useEffect, useState } from 'react'
-import { db } from '../../firebase'
-import { addDoc, collection, getDocs } from 'firebase/firestore'
-import { Button, Table } from 'react-bootstrap'
-import "./BdReservas.css"
-
+import React, { useEffect, useState } from 'react';
+import { db } from '../../firebase';
+import { addDoc, collection, deleteDoc, getDocs, doc } from 'firebase/firestore'; // Importar deleteDoc de 'firebase/firestore'
+import { Button, Table, Card, CardGroup } from 'react-bootstrap';
+import "./BdReservas.css";
 
 export const BdReservas = () => {
-    const [reservas, setResevas] = useState([])
-    const [fecha, setFecha] = useState("")
-    const [hora, setHora] = useState("")
-    const [nombre, setNombre] = useState("")
-    const [apellido, setApellido] = useState("")
-    const [correo, setCorreo] = useState("")
-    const [telefono, setTelefono] = useState("")
-    const [personas, setPersonas] = useState("")
+    const [reservas, setResevas] = useState([]);
 
- 
-    const reservasCollectionRef = collection(db, 'reservas') 
+    const reservasCollectionRef = collection(db, 'reservas');
 
+    const getReservas = async () => {
+        try {
+            const data = await getDocs(reservasCollectionRef);
+            setResevas(data.docs.map(doc => ({...doc.data(), id: doc.id})));
+        } catch (error) {
+            console.error('Error al obtener reservas:', error);
+        }
+    };
 
-    const getReservas = async() => {
-        const data = await getDocs(reservasCollectionRef)
-        //console.log('Datos desde Firestore', data)
-        setResevas(data.docs.map(doc => ({...doc.data(), id: doc.id})))
-        //console.log('Datos desde Firestore 222', movies)
-    }
+    const eliminarElemento = async (elementoId) => {
+        try {
+            const elementoRef = doc(db, 'reservas', elementoId);
+            await deleteDoc(elementoRef);
+            console.log('Elemento eliminado correctamente');
+            await getReservas(); // Actualizar la lista de reservas después de eliminar el elemento
+        } catch (error) {
+            console.error('Error al eliminar el elemento:', error);
+        }
+    };
 
+    useEffect(() => {
+        getReservas();
+    }, []);
 
-    const addMovie = async() => {
-        await addDoc(reservasCollectionRef, {nombre, apellido})
-        // await addDoc(moviesCollectionRef, {name: name, year: year, genero: genero})
-        await getReservas()
-        setFecha('')
-        setHora('')
-        setNombre('')
-        setApellido('')
-        setCorreo('')
-        setTelefono('')
-        setPersonas('')
+    return (
+        <>
+            <h2 className="Title-reserva">Base de datos Reservas</h2>
+            
 
-    }
+            
+            <div className="card-container1">
+                
+                    {reservas
+                        .sort((a, b) => new Date(a.fecha) - new Date(b.fecha))
+                        .map(reserva => (
+                            
+                            <CardGroup className="card-grupo1">
 
-    useEffect(()=>{
-        getReservas()
-    }, [])
-
-  return (
-       
-    <>
-
-<h2 className="Title-reserva">Base de datos Reservas</h2>
-
-    <div className='table-container'>
-
-        
-        {/* <input type='string' placeholder='name' value={name} onChange={(event) => setName(event.target.value)} />
-        <input type='number' placeholder='year' value={year} onChange={(event) => setYear(event.target.value)} />
-        <input type='string' placeholder='genero' value={genero} onChange={(event) => setGenero(event.target.value)} />
-
-        <Button variant='primary' onClick={addMovie}>Agregar</Button> */}
-        
-        <Table striped bordered hover> 
-        <thead>
-            <tr className='cabeceras'>
-            <th>Fecha</th>
-            <th>Hora</th>
-            <th>Nombre</th>
-            <th>Correo</th>
-            <th>Teléfono</th>
-            <th>Personas</th>
-            <th>Opciones</th>
-            </tr>
-        </thead>
-
-        <tbody>
-            {
-                reservas.map(reserva => (
-                    <tr key={reserva.id}>
-                        <td> {reserva.fecha}</td>
-                        <td> {reserva.hora}</td>
-                        <td> {reserva.nombre}</td>
-                        <td> {reserva.email}</td>
-                        <td> {reserva.telefono}</td>
-                        <td> {reserva.personas}</td>
-                        <td> 
-                            <div className='opciones'>
-                            <Button variant='warning'>Edit</Button>
-                            <Button variant='danger'>Delete</Button>
-                            </div>
-                            </td>
-
-                    </tr>
-                ))
-            }
-
-            </tbody>
-        </Table></div>
+                            <Card key={reserva.id}>
+                                <Card.Body>
+                                    <Card.Title className="card-titulo">{reserva.fecha.toString()} - {reserva.hora}</Card.Title>
+                                    <Card.Text>
+                                        <strong>Nombre:</strong> {reserva.nombre}<br />
+                                        <strong>Correo:</strong> {reserva.email}<br />
+                                        <strong>Teléfono:</strong> {reserva.telefono}<br />
+                                        <strong>Personas:</strong> {reserva.personas}<br />
+                                    </Card.Text>
+                                    <Card.Footer className="card-footer">
+                                    <Button variant="danger" onClick={() => eliminarElemento(reserva.id)}>Eliminar</Button>
+                                    </Card.Footer>
+                                </Card.Body>
+                            </Card>
+                            </CardGroup>
+                        ))}
+                
+            </div>
 
         </>
-  )
-}
+    );
+};

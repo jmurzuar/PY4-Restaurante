@@ -6,14 +6,15 @@ import { getFirestore } from 'firebase/firestore';
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCcpmtMofc7wFyYT4WrKAowy79r304IXlg",
-  authDomain: "primerproyecto-89a87.firebaseapp.com",
-  projectId: "primerproyecto-89a87",
-  storageBucket: "primerproyecto-89a87.appspot.com",
-  messagingSenderId: "786244546176",
-  appId: "1:786244546176:web:71d3eaceea649cf44c4065"
+  apiKey: "AIzaSyCSzaw2R5J15G0IWQBrr2bzzJwB3uebZmA",
+  authDomain: "reserva-app-react-restauant.firebaseapp.com",
+  projectId: "reserva-app-react-restauant",
+  storageBucket: "reserva-app-react-restauant.appspot.com",
+  messagingSenderId: "772833943683",
+  appId: "1:772833943683:web:0a587bba41aa0dec3a3bb6"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app)
+

@@ -1,12 +1,10 @@
 .opciones{
-    display: flex;
-  justify-content: center;
+
+  text-align: center;
+  background-color: blue;
 }
 
-button{
-    margin: 0 10px;
-    width: 70px;
-}
+
 
 .table-container{
     margin: 20px; 
@@ -15,4 +13,46 @@ button{
 .cabeceras{
     text-align: center;
     
+}
+
+.card-container1 {
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribuye las tarjetas equitativamente */
+    gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px; /* Espaciado interno */
+}
+
+.card-grupo1 {
+    width: calc(25%); /* Ancho de la tarjeta: 33.33% menos el espacio entre tarjetas */
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-grupo1:hover {
+    box-shadow: 15px 15px 40px rgba(139, 13, 217, 0.4);
+    transform: translateY(-1%);
+    transition: 0.5s;
+}
+
+.card-titulo {
+    font-size: 1.7em !important;
+    text-align: right;
+}
+
+.card-footer {
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .card-grupo1 {
+        width: calc(100%); /* Ancho de la tarjeta: 33.33% menos el espacio entre tarjetas */
+    }
+
+    .card-titulo {
+        font-size: 2em !important;
+        
+    }
 }
