@@ -52,7 +52,7 @@ export const Footer = () => {
             <div className='text-final'> 
                 <p className='text-central text-white legal'>
                             PY4 Aplicación "Restaurante" - DWFS C11 UDD ©2024 <br />
-                            Todos los derechos reservados. - v1.2.0
+                            Todos los derechos reservados. - v1.5.0
                         </p>
             </div>
             
